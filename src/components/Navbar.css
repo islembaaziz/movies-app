@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #1c1c1c; /* Slightly lighter than #333 for better contrast */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 50px; /* Increase the logo size */
+}
+
+.navbar-title {
+  font-size: 24px; /* Size of the title */
+  color: purple; /* Purple color */
+  margin-left: 15px; /* Space between logo and title */
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search input {
+  padding: 8px 15px; /* Increased padding */
+  font-size: 16px;
+  border: 1px solid #555; /* Add a subtle border */
+  border-radius: 25px; /* More rounded corners */
+  background-color: #333; /* Match the navbar color */
+  color: white; /* White text */
+  transition: border-color 0.3s; /* Smooth transition for focus effect */
+}
+
+.navbar-search input:focus {
+  outline: none;
+  border-color: #ff4500; /* Change border color on focus */
+}
+
+.search-button {
+  padding: 8px 15px; /* Match padding with input */
+  font-size: 16px;
+  background-color: #007bff; /* Blue color */
+  color: white; /* White text */
+  border: none;
+  border-radius: 25px; /* More rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}

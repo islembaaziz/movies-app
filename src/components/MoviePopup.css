@@ -1,0 +1,59 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* Ensure the popup appears on top of other content */
+}
+
+.popup-content {
+  background-color: rgba(255, 255, 255, 0.95); /* Increased opacity for better readability */
+  padding: 40px; /* Increased padding for better spacing */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  width: 90%; /* Increase width for better coverage */
+  height: 90%; /* Increase height for better coverage */
+  overflow-y: auto;
+  text-align: left; /* Align text content to the left */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+}
+
+.close-button {
+  position: absolute;
+  top: 20px; /* Adjusted top position for better spacing */
+  right: 60px; /* Adjusted right position for better spacing */
+  background-color: transparent;
+  border: none;
+  color: #ff0000;
+  font-size: 24px; /* Increased font size for better visibility */
+  cursor: pointer;
+  outline: none; /* Remove default focus outline */
+}
+
+
+
+.popup-image {
+  float: left; /* Align image to the left */
+  margin-right: 20px; /* Add margin for spacing between image and text */
+}
+
+.popup h2 {
+  font-size: 28px; /* Increased font size for better emphasis */
+  margin-bottom: 20px; /* Increased margin bottom for better spacing */
+}
+
+.popup p {
+  font-size: 18px; /* Increased font size for better readability */
+  line-height: 1.6; /* Adjusted line height for better spacing */
+}
+
+.additional-info {
+  margin-top: 20px;
+  font-size: 16px; /* Adjusted font size for better consistency */
+  color: #666; /* Dimmed color for additional info */
+}
