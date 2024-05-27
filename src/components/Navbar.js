@@ -18,7 +18,7 @@ const Navbar = ({ onSearch }) => {
     <nav className="navbar">
       <div className="navbar-logo">
         <img src={logo} alt="Logo" />
-        <h1 className="navbar-title">MOVIES APP</h1>
+        <h1 className="navbar-title">MOVIES GALLERY</h1>
       </div>
       <form className="navbar-search" onSubmit={handleSearch}>
         <input

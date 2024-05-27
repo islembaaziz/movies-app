@@ -31,9 +31,9 @@ const App = () => {
 
   useEffect(() => {
     const fetchMovieData = async () => {
-      const trendingEndpoint = `${BASE_URL}/trending/movie/week?api_key=${API_KEY}&language=en-US&page=1&pageSize=5`;
-      const upcomingEndpoint = `${BASE_URL}/movie/upcoming?api_key=${API_KEY}&language=en-US&page=1&pageSize=5`;
-      const topRatedEndpoint = `${BASE_URL}/movie/top_rated?api_key=${API_KEY}&language=en-US&page=1&pageSize=5`;
+      const trendingEndpoint = `${BASE_URL}/trending/movie/week?api_key=${API_KEY}&language=en-US&page=1`;
+      const upcomingEndpoint = `${BASE_URL}/movie/upcoming?api_key=${API_KEY}&language=en-US&page=1`;
+      const topRatedEndpoint = `${BASE_URL}/movie/top_rated?api_key=${API_KEY}&language=en-US&page=1`;
 
       const trendingMovies = await fetchMovies(trendingEndpoint);
       const upcomingMovies = await fetchMovies(upcomingEndpoint);
